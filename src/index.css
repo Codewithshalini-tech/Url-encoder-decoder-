@@ -1,1 +1,49 @@
 @import "tailwindcss";
+/* @import "./theme.css"; */
+
+
+
+html,
+body {
+  height: 100%; 
+}
+
+/* LIGHT THEME */
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --secondary: #9ba2ae;
+  --secondary-foreground: #ffffff;
+
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+
+  --border: #e5e7eb;
+
+  --card: #ffffff;
+  --card-foreground: #111827;
+}
+
+/* DARK THEME */
+[data-theme="dark"] {
+  --background: #0b0b0b;
+  --foreground: #f1f5f9;
+
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+
+  --secondary: #9ba2ae;
+  --secondary-foreground: #ffffff;
+
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+
+  --border: #2a2a2e;
+
+  --card: #18181b;
+  --card-foreground: #ffffff;
+}
